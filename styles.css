@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+#myForm{
+	text-align: center;
+}
+
+input{
+	height: auto;
+	border-radius: 5px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+	margin: 25px;
+}
+.pbar{
+	text-align: center;
+}
+
+canvas{
+	text-align: center;
+	padding: 15px;
+}
+
+.heading{
+	padding: 20px;
+	background-color: rgba(127,227,127,1);
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
