@@ -5,11 +5,12 @@
 }
 
 input{
-	height: auto;
+	height: 50px;
 	border-radius: 5px;
 	font-family: 'Raleway', sans-serif;
 	font-size: 25px;
 	margin: 25px;
+
 }
 .pbar{
 	text-align: center;
@@ -26,4 +27,35 @@ canvas{
 	color: white;
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
+}
+
+.ins{
+	font-family: 'Raleway', sans-serif;
+	padding-left: 100px;
+	font-size: 25px;
+	margin-right: 25px;
+}
+
+.mopt{
+	text-align: center;
+	padding: 20px;
+
+}
+
+.mopt a{
+	text-decoration: none;
+	font-size: 30px;
+	font-family: 'Raleway', sans-serif;
+	border-radius: 10px;
+	background-color: #F7941E;
+	border: solid 2px white;
+	color: white;
+	margin: 10px;
+	padding: 15px;
+}
+
+.mopt a:hover{
+	color: #F7941E;
+	border: solid 2px #F7941E;
+	background-color: white;
 }
