@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Send : Kilobyte File Sharing</title>
+	<title>Send : Kilobyte File Transfer</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<script type="text/javascript" src="script.js"></script>
 
@@ -9,7 +9,7 @@
 <body>
 <div class="heading">
 <img src="logo.png">
-	<h1>Kilobyte File Sharing</h1>
+	<h1>Kilobyte File Transfer</h1>
 </div>
 <form action="upload.php" method="post" enctype="multipart/form-data" id="myForm">
 
