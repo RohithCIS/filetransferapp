@@ -22,10 +22,10 @@ AppUpdatesURL={#MyAppURL}
 DefaultDirName=C:\Kilobyte
 DisableDirPage=yes
 DisableProgramGroupPage=yes
-LicenseFile=C:\Kilobyte\EULA.txt
+LicenseFile=C:\Kilobyte22\EULA.txt
 OutputDir=C:\Kilobyte PROD
 OutputBaseFilename=setup
-SetupIconFile=C:\Kilobyte\kft.ico
+SetupIconFile=C:\Kilobyte22\kft.ico
 Compression=lzma
 SolidCompression=yes
 
@@ -36,7 +36,7 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "C:\Kilobyte\receive.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Kilobyte22\receive.exe"; DestDir: "{app}"; Flags: ignoreversion
 Source: "C:\Kilobyte PROD\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
