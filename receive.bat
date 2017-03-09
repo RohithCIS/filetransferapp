@@ -1,19 +1,23 @@
 @echo off
 netsh wlan set hostednetwork mode=allow ssid=KilobyteFT key=12345678
 netsh wlan start hostednetwork
-echo Please Connect to KilobyteFT Hotspot on the Sender PC
 
-pause
 cd C:\Kilobyte
 
-start server.bat
+start server.exe
 
-echo Press any key to close After the Transfer is completed.
+start receive.html
+
+echo DO NOT Close This Window Until Transfer Completes
+
+pause
+
+echo DO NOT Press any key again until transfer Completes
 
 pause
 
 netsh wlan stop hostednetwork
 
-explorer C:\Kilobyte\Received
+taskkill /F /IM server.exe
 
-taskkill /F /FI /IM cmd.exe
+explorer C:\Kilobyte\Received
