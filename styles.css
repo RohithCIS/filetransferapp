@@ -5,13 +5,23 @@
 }
 
 input{
-	height: 50px;
-	border-radius: 5px;
+	height: auto;
+	margin: 10px;
+	font-size: 30px;
 	font-family: 'Raleway', sans-serif;
-	font-size: 25px;
-	margin: 25px;
-
+	border-radius: 10px;
+	background-color: #F7941E;
+	border: solid 2px white;
+	color: white;
+	padding: 10px;
 }
+
+input:hover{
+	color: #F7941E;
+	border: solid 2px #F7941E;
+	background-color: white;
+}
+
 .pbar{
 	text-align: center;
 }
@@ -22,7 +32,7 @@ canvas{
 }
 
 .heading{
-	padding: 20px;
+	padding: 10px;
 	background-color: rgba(127,227,127,1);
 	color: white;
 	font-family: 'Raleway', sans-serif;
